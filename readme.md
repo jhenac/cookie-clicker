@@ -5,15 +5,12 @@ Introduction
 It took me a week to finalize my code due in part to my wanting to find the optimal code out there. 
 I learned about threading, scheduler, and applied strip, split, and time module in the process.
 
-
+```
 end = time.time() + 300
-
 while time.time() < end:
-
     cookie.click()
-
     if round(time.time(), 0) % 5 == 0:
-
+```
 
 In this particular lines of code, the ```time.time()``` inside the while loop and for loop DOES NOT work
 if placed inside a variable illustrated below:
