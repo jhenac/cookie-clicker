@@ -1,5 +1,6 @@
 The Cookie Analysis
 
+
 Introduction
 
 It took me a week to finalize my code due in part to my wanting to find the optimal code out there. 
@@ -28,7 +29,9 @@ Note also that ```time.time()``` has to be rounded off to produce the desired re
 Another thing to note is that once it is able to purchase an upgrade, it will not purchase additional 
 upgrade but instead will loop back to the beginning of the code.
 
+
 Results
+
 The objective was to find the optimal time breaks for the purchase of upgrades to produce higher 
 cookies/per second given the limited 5-minute timeframe.
 
@@ -46,7 +49,10 @@ are quite high at 1,141 cookies and cookies/second is lower than #2 at 120 cooki
 4. At 20-second interval, I was able to purchase 8 mines, and 7 factories and an even lower  
 result at 108 cookies/second. 
 
+
+
 Conclusion
+
 A 10-second interval was the most ideal producing a result of 126.6 cookies/second compared to the
 other interval tests. A higher time given for the build up of cookies does not guarantee a higher 
 cookies/second result. However, since the cookie clicker is efficient, it can build up enough money
