@@ -15,23 +15,18 @@ while time.time() < end:
     if round(time.time(), 0) % 5 == 0:
 
 
-In this particular lines of code, the time.time() inside the while loop and for loop DOES NOT work
+In this particular lines of code, the ```time.time()``` inside the while loop and for loop DOES NOT work
 if placed inside a variable illustrated below:
 
-
+```
 current = time.time()
-
 end = time.time() + 300
-
 while current < end:
-
     cookie.click()
-
     if round(current), 0) % 5 == 0:
+```
 
-
-
-Note also that time.time() has to be rounded off to produce the desired result.
+Note also that ```time.time()``` has to be rounded off to produce the desired result.
 
 Another thing to note is that once it is able to purchase an upgrade, it will not purchase additional 
 upgrade but instead will loop back to the beginning of the code.
